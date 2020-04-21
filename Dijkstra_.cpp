@@ -4,7 +4,7 @@ using namespace std;
 typedef pair<int, int> ipair;
 vector<ipair>adj[1000];
 vector<int>dist, p;
-priority_queue<ipair, vector<ipair>, greater<ipair> > pq;
+priority_queue< ipair, vector<ipair> > pq;
 int v,e,src;
 
 void dijkstra()
