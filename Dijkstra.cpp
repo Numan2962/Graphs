@@ -10,7 +10,7 @@ int source,v,e;
 
 void dijkstra()
 {
-    priority_queue<ipair, vector<ipair>, greater<ipair> > pq;
+    priority_queue<ipair, vector<ipair> > pq;
     dist.assign(v+1, INF);
     p.assign(v+1, 0);
 
